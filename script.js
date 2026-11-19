@@ -17,14 +17,26 @@ const topmaximo = 25;
 let honorarios = SMMLV
 
 
+let SMMLV25= SMMLV*25
 
-
-if (honorarios) { >0
+if (honorarios) { prompt('Indique sus honorarios') >0 alert ('Si son mayores')
     // Se ejecuta si la condición es verdadera
-} else if (riesgo1,riesgo2,riesgo3) {
+} else if (riesgo1,riesgo2,riesgo3) { prompt('Indique su riesgo') alert ('si esta en los valores')
     // Se ejecuta si la primera es falsa y esta es verdadera
-} else { 
+} else { alert ('No se cumple')
     // Se ejecuta si ninguna condición se cumple
 }
+
+
+if (IBC) { prompt('Indique su IBC')<SMMLV alert('Ibc es 1')
+
+    else if (SMMLV25) alert ('Ibc es de 25 SMMLV')
+
+    else { alert (´Digite un numero valido)
+
+    }
+}
+
+
 
 
