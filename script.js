@@ -10,9 +10,21 @@ const riesgo2 = 1.044;
 const riesgo3 = 2.436;
 
 //Otros//
-const fdsolidaridad = 1;
+const fdsolidaridad = 1;   //SOlo si el ibc es mayor o igual a 4 SMMLV//
 const topmaximo = 25;
 
 //Variables//
 let honorarios = SMMLV
-let riesgo= riesgo1,riesgo2,riesgo3
+
+
+
+
+if (honorarios) { >0
+    // Se ejecuta si la condición es verdadera
+} else if (riesgo1,riesgo2,riesgo3) {
+    // Se ejecuta si la primera es falsa y esta es verdadera
+} else { 
+    // Se ejecuta si ninguna condición se cumple
+}
+
+
