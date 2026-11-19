@@ -38,5 +38,9 @@ if (IBC) { prompt('Indique su IBC')<SMMLV alert('Ibc es 1')
 }
 
 
+let saluddinero= SMMLV/Salud/Pension
+let totalssp= saluddinero/IBC
+alert (totalssp)
+
 
 
