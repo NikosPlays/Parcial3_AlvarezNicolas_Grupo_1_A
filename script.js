@@ -12,3 +12,7 @@ const riesgo3 = 2.436;
 //Otros//
 const fdsolidaridad = 1;
 const topmaximo = 25;
+
+//Variables//
+let honorarios = SMMLV
+let riesgo= riesgo1,riesgo2,riesgo3
