@@ -56,3 +56,7 @@ if (IBC) {prompt('Escriba su SMMLV')<= SMMLV4  alert ('calculando')
  }
 
 
+ let totalarl= SMMLV/ IBC
+ 
+
+
