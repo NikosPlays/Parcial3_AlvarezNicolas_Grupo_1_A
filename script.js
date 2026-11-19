@@ -17,7 +17,9 @@ const topmaximo = 25;
 let honorarios = SMMLV
 
 
-let SMMLV25= SMMLV*25
+let SMMLV25 = SMMLV*25
+let SMMLV4 = SMMLV*4
+
 
 if (honorarios) { prompt('Indique sus honorarios') >0 alert ('Si son mayores')
     // Se ejecuta si la condición es verdadera
@@ -38,9 +40,19 @@ if (IBC) { prompt('Indique su IBC')<SMMLV alert('Ibc es 1')
 }
 
 
-let saluddinero= SMMLV/Salud/Pension
-let totalssp= saluddinero/IBC
+let saluddinero = SMMLV/Salud/Pension
+let totalssp = saluddinero/IBC
 alert (totalssp)
 
+
+let fondodesolidaridad = SMMLV/fdsolidaridad
+
+
+if (IBC) {prompt('Escriba su SMMLV')<= SMMLV4  alert ('calculando')
+    else if (fondodesolidaridad) alert ('fondo aplicado')
+
+    
+    else {alert ('No aplica')}
+ }
 
 
